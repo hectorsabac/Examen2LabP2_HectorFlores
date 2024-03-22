@@ -204,7 +204,7 @@ public class PSNUsers {
             String accum = "";
             
             raf.seek(0);
-            long rafPos = 1;
+            long rafPos = 0;
             while(raf.getFilePointer() < raf.length()){
                 System.out.println("Entra al primero");
                 String user = (String) raf.readUTF();
