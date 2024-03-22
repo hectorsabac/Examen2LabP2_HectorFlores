@@ -174,6 +174,7 @@ public class PSNUsers {
                 raf.readBoolean();
                 rafPos++;
             }
+            JOptionPane.showMessageDialog(null, "Se ha dado un trofeo a " + username + "!");
         } else {
             JOptionPane.showMessageDialog(null, "No existe el usuario");
         }
